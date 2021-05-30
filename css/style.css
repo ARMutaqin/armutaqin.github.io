@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.navbar {
+	height: 85px;
+	left: 0px;
+	top: 0px;
+	-webkit-box-shadow: 0 6px 6px -6px #999;
+    -moz-box-shadow: 0 6px 6px -6px #999;
+    box-shadow: 0 6px 6px -6px #999;
+    background-color: #ffffff;
+}
+
+/* set navbar font*/
+.navbar-light .navbar-nav .nav-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.container {
+	color: #333333;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.hero-shot {
+	height: 512px;
+	margin-top: 155px;
+}
+
+.sambutan-kepsek {
+	height: 365px;
+	position: center;
+}
+
+.angka {
+	height: 250px;
+	background: #EEF3FE;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 75px;
+}
+
+.jurusan {
+	height: 575px;
+	/*background-color: gray;*/
+	margin-top: 35px;
+}
+
+.gtk {
+	height: 350px;
+	background-color: gray;
+}
+
+.home-org {
+	margin-top: 30px;
+}
+
+.prestasi {
+	margin-top: 34px;
+	height: 530px;
+	background-color: #102C60;
+}
+
+.mading {
+	margin-top: 34px;
+	height: 300px;
+	background-color: gray;
+}
+
+.sebaran {
+	margin-top: 34px;
+	height: 460px;
+}
+
+.cta-bawah {
+	margin-top: 34px;
+	height: 300px;
+	background-color: #D4E2FC;
+}
+
+
+/*css jurusan ipa*/
+
+.hero-shot-ipa {
+	margin-top: 85px;
+	height: 300px;
+	max-width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 3rem;
+}
+
+.container h2{
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 59px;
+	color: #333333;
+}
+
+.container h3{
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 59px;
+	color: #757575;
+}
+
+.container p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 36px;
+	color: #757575;
+}
+
+.container section{
+	padding-bottom: 3rem;
+}
+
+
+
+/*umum*/
+#accordion-umum {
+	/*background-color: red;*/
+	margin-right: 24px;
+	margin-left: 24px;
+	margin-bottom: 30px;
+}
+
+#accordion-umum .card{
+	border-radius: 4px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+
+#accordion-umum .card .card-header{
+	height: 60px;
+}
+
+#accordion-umum .card .card-header button{
+	color: #757575;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+/*umum*/
+
+
+/*acc wajib*/
+#accordion-wajib {
+	margin-right: 24px;
+	margin-left: 24px;
+	margin-bottom: 30px;
+}
+
+#accordion-wajib .card{
+	border-radius: 4px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+
+#accordion-wajib .card .card-header{
+	height: 60px;
+}
+
+#accordion-wajib .card .card-header button{
+	color: #757575;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+/*acc wajib*/
+
+.lintas-minat {
+	margin-right: 24px;
+	margin-left: 24px;
+	margin-bottom: 30px;
+}
+
+
+/* ORGANISASI PAGE */
+
+.hero-shot-org {
+	margin-top: 85px;
+	height: 300px;
+	max-width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #B2EBF2;
+	vertical-align: middle;
+}
+
+.hero-shot-org h1{
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 59px;
+	align-items: center;
+	text-align: center;
+	color: #333333;
+	padding-top: 100px;
+	
+}
+
+.hero-shot-org p{
+	font-size: 14px;
+	line-height: 15px;
+	align-items: center;
+	text-align: center;
+	color: #757575;
+	padding-left: 30%;
+	padding-right: 30%;
+
+}
+
+.organisasi-intra{
+	height: 535px;	
+	/*background-color: gray;*/
+	margin-top: 30px;
+}
+
+.organisasi-intra h1{
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 59px;
+	color: #333333;
+}
+
+.organisasi-intra p{
+	font-size: 12px;
+	line-height: 15px;
+	color: #757575;
+	padding-right: 50%;
+}
+
+/* FASILITAS */
+
+.hero-shot-fasilitas {
+	margin-top: 85px;
+	height: 300px;
+	max-width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #B2EBF2;
+	vertical-align: middle;
+}
+
+.hero-shot-fasilitas h1{
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 59px;
+	align-items: center;
+	text-align: center;
+	color: #333333;
+	padding-top: 100px;
+	
+}
+
+.hero-shot-fasilitas p{
+	font-size: 14px;
+	line-height: 15px;
+	align-items: center;
+	text-align: center;
+	color: #757575;
+	padding-left: 30%;
+	padding-right: 30%;
+}
+
+
+.carousel-fasilitas{
+	height: 450px;
+	/*background-color: gray;*/
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+.fasilitas-lainnya {
+	height: 300px;
+	/*background-color: green;*/
+}
